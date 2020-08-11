@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:contador/src/pages/first_page.dart';
 import 'package:contador/src/pages/second_page.dart';
 import 'package:provider/provider.dart';
-import 'package:contador/src/providers/provider.dart';
+import 'package:contador/src/providers/provider_count.dart';
  
 void main() => runApp(MyApp());
  
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         routes: {
           'first' : (BuildContext context) => FirstPage(),
           'second': (BuildContext context) => SecondPage(),
-
+          //'' : (BuildContext context) => ,
         },
       ),
     );
