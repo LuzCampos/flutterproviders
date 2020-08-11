@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-<img src="screens/screenOne.jpg" width="367">
+<img src="screens/screenOne.jpeg" width="367">
 
 ## Getting Started
 
